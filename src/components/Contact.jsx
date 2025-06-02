@@ -8,7 +8,7 @@ export const Contact = () => {
           <p className="text-4xl sm:text-5xl font-bold inline border-b-4 border-gray-500">Contact</p>
         </div>
         <div className="flex justify-center items-center w-full">
-          <form action="" method="POST">
+          <form action="https://getform.io/f/agdllqqb" method="POST">
             <input
               type="text"
               name="name"

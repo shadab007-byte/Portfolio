@@ -1,11 +1,11 @@
-import React from "react";
+
 import python from "../assets/python.png";
-import django from "../assets/django.png";
+import matlab from "../assets/mat.jpg";
 import mysql from "../assets/mysql.png";
 import github from "../assets/github.png";
 import cplusplus from "../assets/c-.png";
-import js from "../assets/js.png";
-import react from "../assets/react.png";
+import Overleaf from "../assets/overleaf.png";
+import MachineLearning from "../assets/machine.jpeg";
 
 export const Experience = () => {
   const technology = [
@@ -17,8 +17,8 @@ export const Experience = () => {
 
     {
       id: 1,
-      icon: django,
-      title: "Django",
+      icon: matlab,
+      title: "Matlab",
     },
 
     {
@@ -29,14 +29,14 @@ export const Experience = () => {
 
     {
       id: 1,
-      icon: js,
-      title: "Javascript",
+      icon: Overleaf,
+      title: "Overleaf",
     },
 
     {
       id: 1,
-      icon: react,
-      title: "React JS",
+      icon: MachineLearning,
+      title: "Machine-Learning",
     },
 
     {

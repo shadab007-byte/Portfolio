@@ -1,7 +1,8 @@
 import React from "react";
 import p1 from "../assets/p1.png";
-import p2 from '../assets/p2.jpg';
-import p3 from '../assets/p3.jpg';
+import p2 from '../assets/p2.png';
+import p3 from '../assets/p3.png';
+import p4 from '../assets/p4.png';
 import { FaGithub, FaYoutube } from "react-icons/fa";
 
 export const Portfolio = () => {
@@ -9,22 +10,29 @@ export const Portfolio = () => {
     {
       id: 1,
       image: p1,
-      github: "https://github.com",
-      demo: "https://youtube.com",
+      github: "https://github.com/shadab007-byte/Comparison-of-SVM-Kernels-and-Fractal-Kernel-for-Credit-Card-Fraud-Detection-using-GANs",
+      
     },
 
     {
       id: 2,
       image: p2,
-      github: "https://github.com",
-      demo: "https://youtube.com",
+      github: "https://github.com/shadab007-byte/IIT_MA5755-Concrete-Compressive-Strength-Prediction",
+      
     },
 
     {
       id: 3,
       image: p3,
-      github: "https://github.com",
-      demo: "https://youtube.com",
+      github: "https://github.com/shadab007-byte/Flight_Price_Prediction",
+      
+    },
+
+     {
+      id: 4,
+      image: p4,
+      github: "https://github.com/shadab007-byte/Image-Processing-Using-DFT-and-FFT",
+      
     },
 
     
